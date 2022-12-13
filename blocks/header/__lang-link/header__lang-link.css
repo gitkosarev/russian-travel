@@ -1,7 +1,7 @@
 .header__lang-link {
   color: #fff;
   text-decoration: none;
-  line-height: 1.2;
+  line-height: 28px;
   font-size: 24px;
   font-weight: 400;
   display: flex;
@@ -11,9 +11,9 @@
   padding: 0;
 }
 
-@media screen and (max-width: 320px) {
+@media screen and (max-width: 767px) {
   .header__lang-link {
-    line-height: 1.1;
+    line-height: 20px;
     font-size: 18px;
   }
 }
