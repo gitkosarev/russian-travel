@@ -42,4 +42,4 @@
 Создание нового сайта с применением технологий grid, media запросов, а также тренируясь работать с шаблоном сайта в Figma.
 
 #### Проект на стадии разработки и доступен по адресу:
-[URL](https://gitkosarev.github.io/russian-travel/index.html/)
+[Путешествия по России](https://gitkosarev.github.io/russian-travel/index.html)
