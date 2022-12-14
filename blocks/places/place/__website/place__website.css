@@ -1,4 +1,27 @@
 .place__website {
-  margin: 0;
+  grid-area: place__website;
+  display: flex;
+  flex-direction: column;
+  justify-content: end;
+  margin: 92px 0 0;
   padding: 0;
+  width: 100%;
+}
+
+@media screen and (max-width: 1279px) {
+  .place__website {
+    margin: 92px 0 0;
+  }
+}
+
+@media screen and (max-width: 1023px) {
+  .place__website {
+    margin: 88px 0 0;
+  }
+}
+
+@media screen and (max-width: 767px) {
+  .place__website {
+    margin: 64px 16px 0 16px;
+  }
 }
