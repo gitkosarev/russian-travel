@@ -7,7 +7,6 @@
   margin: 56px 0 0 0;
   padding: 0;
   max-width: 720px;
-  min-height: 200px;
   z-index: 30;
 }
 
@@ -22,6 +21,5 @@
     line-height: 44px;
     font-size: 40px;
     max-width: 288px;
-    min-height: 88px;
   }
 }
