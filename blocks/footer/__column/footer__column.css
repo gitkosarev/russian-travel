@@ -10,5 +10,10 @@
   .footer__column {
     font-size: 14px;
     line-height: 14px;
+    margin: 48px 0 0;
+  }
+  
+  .footer__column:first-child {
+    margin: 0;
   }
 }
