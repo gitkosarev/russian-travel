@@ -1,5 +1,4 @@
 .place__paragraph {
-  grid-area: place__paragraph_second;
   font-weight: 400;
   font-size: 18px;
   line-height: 29px;
@@ -8,7 +7,6 @@
 }
 
 .place__paragraph:first-of-type {
-  grid-area: place__paragraph_first;
   margin: 48px 0 0;
 }
 
