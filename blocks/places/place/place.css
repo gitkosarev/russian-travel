@@ -5,28 +5,28 @@
     "place__image place__paragraph_first"
     "place__image place__paragraph_second";
   grid-template-columns: 460px 484px;
-  grid-template-rows: 152px, 460px minmax(min-content, max-content);
+  grid-template-rows: 152px repeat(2, minmax(min-content, max-content));
   gap: 0 40px;
   justify-content: center;
-  margin: 0;
+  margin: 92px 0 0;
   padding: 0;
 }
 
 @media screen and (max-width: 1279px) {
   .place {
     grid-template-columns: 440px 456px;
-    grid-template-rows: 152px, 440px minmax(min-content, max-content);
+    grid-template-rows: 152px repeat(2, minmax(min-content, max-content));
     gap: 0 32px;
-    margin: 92px 48px 0 48px;
+    margin: 92px 0 0;
   }
 }
 
 @media screen and (max-width: 1023px) {
   .place {
     grid-template-columns: 340px 352px;
-    grid-template-rows: 92px, 340px minmax(min-content, max-content);
+    grid-template-rows: 92px repeat(2, minmax(min-content, max-content));
     gap: 0 28px;
-    margin: 88px 24px 0 24px;
+    margin: 88px 0 0;
   }
 }
 
