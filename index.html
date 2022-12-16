@@ -14,17 +14,21 @@
 <body class="page">
   <header class="header">
     <div class="header__logo"></div>
-    <div class="header__links">
-      <a class="header__lang-link header__lang-link_active" href="#">Ru</a>
-      <a class="header__lang-link" href="#">En</a>
-    </div>
+    <ul class="header__links">
+      <li>
+        <a class="header__lang-link header__lang-link_active" href="#">Ru</a>
+      </li>
+      <li>
+        <a class="header__lang-link" href="#">En</a>
+      </li>
+    </ul>
   </header>
   <main class="content">
     <section class="lead">
       <h1 class="lead__title">Путешествия по России</h1>
       <p class="lead__subtitle">Настоящая страна не в выпусках новостей, а здесь.</p>
       <img class="lead__image" src="./images/lead-polka.jpg" alt="фотография спального места плацкартного вагона">
-      <p class="lead__caption">ваша полка — верхняя</p>
+      <p class="lead__caption">ваша полка &mdash; верхняя</p>
     </section>
     <section class="intro">
       <h2 class="intro__title">Чего мы там не видели?</h2>
@@ -32,32 +36,56 @@
         По опросам ВЦИОМ, 95% россиян мечтают куда-нибудь поехать, но только 36% планируют провести отпуск в родной стране. Мол, чего мы тут, дома, не видели? На самом деле, Россия — это целая вселенная с ласковым морем юга, густыми лесами Саян и суровыми льдами плато Путорана. А ещё увидеть все эти красоты можно без миллионов на счету, загранпаспорта и многочасовых перелетов. Как, например, Вера Башмакова — смелая молодая мама, которая взяла в охапку троих детей, усадила их в свою «Ладу» и проехала 20 тысяч километров по родной стране. Мы выбрали и описали некоторые интересные места, достойные вашего отпуска.
       </p>
       <ul class="intro__list">
-        <li>Часовых поясов 11</li>
-        <li>Объектов природного наследия ЮНЕСКО 12</li>
-        <li>Объектов культурного наследия ЮНЕСКО 16</li>
-        <li>Природных заповедников 105</li>
-        <li>Аэропортов 241</li>
+        <li>Часовых поясов <span class="intro__list_font_regular">11</span></li>
+        <li>Объектов природного наследия ЮНЕСКО <span class="intro__list_font_regular">12</span></li>
+        <li>Объектов культурного наследия ЮНЕСКО <span class="intro__list_font_regular">16</span></li>
+        <li>Природных заповедников <span class="intro__list_font_regular">105</span></li>
+        <li>Аэропортов <span class="intro__list_font_regular">241</span></li>
       </ul>
     </section>
     <section class="photo-grid">
-      <div class="photo-grid__items">
-        <img class="photo-grid__item" src="./images/photo-grid-train.jpg" alt="фото из окна поезда">
-        <img class="photo-grid__item" src="./images/photo-grid-atharva-tulsi.jpg" alt="работа фотографа Atharva Tulsi">
-        <img class="photo-grid__item" src="./images/photo-grid-tuman.jpg" alt="фото тумана в поле">
-        <img class="photo-grid__item" src="./images/photo-grid-sochi.jpg" alt="фото леса Сочи">
-        <img class="photo-grid__item" src="./images/photo-grid-arisa.jpg" alt="фото машина на льду">
-        <img class="photo-grid__item" src="./images/photo-grid-baikal.jpg" alt="первое фото озера Байкал">
-        <img class="photo-grid__item" src="./images/photo-grid-elbrus.jpg" alt="фото горной вершины Ельбрус">
-        <img class="photo-grid__item" src="./images/photo-grid-kondratiev.jpg" alt="работа фотографа Кондратьева">
-        <img class="photo-grid__item" src="./images/photo-grid-kamchatka-1.jpg" alt="первое фото Камчатка">
-        <img class="photo-grid__item" src="./images/photo-grid-kamchatka-2.jpg" alt="второе фото Камчатка">
-        <img class="photo-grid__item" src="./images/photo-grid-baikal-2.jpg" alt="второе фото озера Байкал">
-        <img class="photo-grid__item" src="./images/photo-grid-ergaki.jpg" alt="фото природного парка Ергаки">
-      </div>
+      <ul class="photo-grid__items">
+        <li>
+          <img class="photo-grid__item" src="./images/photo-grid-train.jpg" alt="фото из окна поезда">
+        </li>
+        <li>
+          <img class="photo-grid__item" src="./images/photo-grid-atharva-tulsi.jpg" alt="работа фотографа Atharva Tulsi">
+        </li>
+        <li>
+          <img class="photo-grid__item" src="./images/photo-grid-tuman.jpg" alt="фото тумана в поле">
+        </li>
+        <li>
+          <img class="photo-grid__item" src="./images/photo-grid-sochi.jpg" alt="фото леса Сочи">
+        </li>
+        <li>
+          <img class="photo-grid__item" src="./images/photo-grid-arisa.jpg" alt="фото машина на льду">
+        </li>
+        <li>
+          <img class="photo-grid__item" src="./images/photo-grid-baikal.jpg" alt="первое фото озера Байкал">
+        </li>
+        <li>
+          <img class="photo-grid__item" src="./images/photo-grid-elbrus.jpg" alt="фото горной вершины Ельбрус">
+        </li>
+        <li>
+          <img class="photo-grid__item" src="./images/photo-grid-kondratiev.jpg" alt="работа фотографа Кондратьева">
+        </li>
+        <li>
+          <img class="photo-grid__item" src="./images/photo-grid-kamchatka-1.jpg" alt="первое фото Камчатка">
+        </li>
+        <li>
+          <img class="photo-grid__item" src="./images/photo-grid-kamchatka-2.jpg" alt="второе фото Камчатка">
+        </li>
+        <li>
+          <img class="photo-grid__item" src="./images/photo-grid-baikal-2.jpg" alt="второе фото озера Байкал">
+        </li>
+        <li>
+          <img class="photo-grid__item" src="./images/photo-grid-ergaki.jpg" alt="фото природного парка Ергаки">
+        </li>
+      </ul>
     </section>
     <section class="places">
       <article class="place">
-        <h3 class="place__title">Куршская коса</h3>
+        <h2 class="place__title">Куршская коса</h2>
         <div class="place__website">
           <p class="place__url-heading">URL</p>
           <a class="place__link" target="_blank" href="http://park-kosa.ru">park-kosa.ru</a>
@@ -73,7 +101,7 @@
         </div>
       </article>
       <article class="place">
-        <h3 class="place__title">Кольский</h3>
+        <h2 class="place__title">Кольский</h2>
         <div class="place__website">
           <p class="place__url-heading">URL</p>
           <a class="place__link" target="_blank" href="https://yourshot.nationalgeographic.com/photos/?keywords=kolskiy">National Geographic</a>
@@ -89,7 +117,7 @@
         </div>
       </article>
       <article class="place">
-        <h3 class="place__title">Алтай</h3>
+        <h2 class="place__title">Алтай</h2>
         <div class="place__website">
           <p class="place__url-heading">URL</p>
           <a class="place__link" target="_blank" href="https://www.youtube.com/watch?v=7ZEsoV7kWAQ">YouTube</a>
@@ -105,7 +133,7 @@
         </div>
       </article>
       <article class="place">
-        <h3 class="place__title">Зимний Байкал</h3>
+        <h2 class="place__title">Зимний Байкал</h2>
         <div class="place__website">
           <p class="place__url-heading">URL</p>
           <a class="place__link" target="_blank" href="https://vk.com/baikalmile">https://vk.com/baikalmile</a>
@@ -121,7 +149,7 @@
         </div>
       </article>
       <article class="place">
-        <h3 class="place__title">Карелия</h3>
+        <h2 class="place__title">Карелия</h2>
         <div class="place__website">
           <p class="place__url-heading">URL</p>
           <a class="place__link" target="_blank" href="http://vodlozero.ru/">http://vodlozero.ru/</a>
@@ -136,13 +164,13 @@
     </section>
     <section class="cover">
       <a class="cover__link" href="https://stampsy.com/na-elektrichkakh-do-baikala" target="_blank">
-        <h3 class="cover__title">
-          До Байкала «на собаках»
-        </h3>
+        <h2 class="cover__title">
+          До Байкала «на&nbsp;собаках»
+        </h2>
+        <p class="cover__subtitle">
+          По мотивам учебной темы о Транссибе — путешествие от столицы до Байкала на электричках.
+        </p>
       </a>
-      <p class="cover__subtitle">
-        По мотивам учебной темы о Транссибе — путешествие от столицы до Байкала на электричках.
-      </p>
     </section>
   </main>
   <footer class="footer">
